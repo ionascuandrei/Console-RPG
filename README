@@ -1,0 +1,31 @@
+Tema 1 - League of OOP - Ionașcu Andrei 325CD
+	*Double-dispatch a fost implementat in aplicarea modificatorilor pentru
+fiecare oponent in functie de tipul de rasa*
+	Pentru aceasta tema am optat pentru o schema clasica ce se poate afla la
+baza oricarui joc/program, modularizarea fiind astfel:
+	- Clasa Hero ce este extinsa si particularizata in cele 4 rase specifice:
+	Wizard, Rogue, Knight si Pyromancer. 
+	- Aceste clase fiind personalizate cu proprii mdoficatori si tipuri de 
+abilitati. 
+	- Abilitatile fiind similare, in esenta, au fost implementate in clasa 
+Ability. 
+	- Toti jucatorii sunt salvati intr-un vector Heroes ce memoreaza ordinea 
+acestora si facilitateaza accesibilitatea.
+	- La baza jocului este implementata clasa Map, salvata intr-o matrice de
+NxM, in care sunt salvate tipurile de teren si referinte catre jucatori pentru
+a simula miscarile pe harta si pentru a instantia lupta dintre doi eroi aflati
+pe acelasi loc.
+
+	Ordinea de desfasurare a jocului este astfel:
+	- Harta si jucatorii sunt initializati si salvati
+	- Pentru fiecare runda de joc se vor realiza urmatorii pasi:
+		-Se realizeaza mutarile pe harta pentru fiecare jucator in viata
+		-Se aplica damage-ul overtime si se curata harta de eroi neinsufletiti
+		-Se parcurge harta casuta cu casuta in cautarea luptelor
+		-Se pregatesca abilitatile ambilor jucatori din lupta
+		-Se aplica atacurile si specificul fiecarei abilitati
+		-Se calculeaza daunele si se verifica integritatea jucatorilor
+		-Se elimina jucatorii cazuti la datorie
+		
+	Pentru detalii despre fiecare functie in parte se verifica comentariile
+prezente in cod.
