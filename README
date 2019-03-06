@@ -1,9 +1,7 @@
-Tema 1 - League of OOP - Ionașcu Andrei 325CD
-http://elf.cs.pub.ro/poo/teme/tema1
-
+Ionașcu Andrei 325CD
 	*Double-dispatch a fost implementat in aplicarea modificatorilor pentru
 fiecare oponent in functie de tipul de rasa*
-	Pentru aceasta tema am optat pentru o schema clasica ce se poate afla la
+	Pentru acest proiect am optat pentru o schema clasica ce se poate afla la
 baza oricarui joc/program, modularizarea fiind astfel:
 	- Clasa Hero ce este extinsa si particularizata in cele 4 rase specifice:
 	Wizard, Rogue, Knight si Pyromancer. 
