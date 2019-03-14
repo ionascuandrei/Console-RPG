@@ -1,10 +1,7 @@
-# Console RPG - Java
-Proiectul constă în implementarea unui console RPG pe o hartă 2D cu diferite proprietăți. Jocul conține 4 clase diferite de eroi, fiecare conținând specificații proprii, avantaje, cât și dezavantaje asupra celorlalte clase și a tipurilor de terenuri. Jocul decurge pe baza fișierului de intrare, fiecare erou având parte de lupte și evoluții până la desemnarea câștigătorului sau terminarea rundelor.
+# Console RPG
+Implements a console RPG on a 2D map with different properties. The game contains 4 different classes of heroes, each containing their own specifications, advantages and disadvantages over other classes and land types. The game is based on an input file map configuration, each hero has battles and evolutions until the winner is designated or the rounds finish.
+Personal gains:
+-	getting used with notions of constructor, aggregation / inheritance and OOP designs
+-	understanding the need of a structured code in classes to streamline program execution
 
-Beneficiu personal:
-
-- fundamentarea practică a constructorilor, a agregării/moștenirii și a design-ului OOP
-
-- înțelegerea nevoii de structurare a elementelor și a funțiilor în clase pentru eficientizarea execuției programului
-
-Limbaj/biblioteci/cunoștințe folosite: Java
+Programming language/libraries/tools used: Java
